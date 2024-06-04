@@ -27,7 +27,7 @@ public class SegmentTrees {
     }
 
     public static void updateUtil(int i, int si, int sj, int idx, int diff) {
-        if (idx >= sj || idx <= si) {
+        if (idx >sj || idx < si) {
             return;
         }
         tree[i] += diff;
@@ -69,8 +69,6 @@ public class SegmentTrees {
         System.out.println(getSum(arr, 2, 5));
         System.out.println();
         updateST(arr, 2, 2);
-        for (int i = 0; i < tree.length; i++) {
-            System.out.print(tree[i] + " ");
-        }
+        System.out.println(getSum(arr, 2, 5));
     }
 }

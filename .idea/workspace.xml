@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="segment tree range queries">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="segment tree update">
       <change beforePath="$PROJECT_DIR$/src/st/SegmentTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/st/SegmentTrees.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717505021790</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="segment tree update">
+      <created>1717507458062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717507458062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +145,7 @@
     <MESSAGE value="test1" />
     <MESSAGE value="segment tree construction" />
     <MESSAGE value="segment tree range queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="segment tree range queries" />
+    <MESSAGE value="segment tree update" />
+    <option name="LAST_COMMIT_MESSAGE" value="segment tree update" />
   </component>
 </project>
