@@ -23,6 +23,7 @@ public class Fibonacci {
             System.out.print(f[i]+" ");
         }
         System.out.println();
+
     }
 
 }
