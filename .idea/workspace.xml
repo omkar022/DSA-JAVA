@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp">
-      <change afterPath="$PROJECT_DIR$/src/dp/FibonacciTabulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/FibonacciMemoization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/ClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FibonacciTabulation">
+  <component name="RunManager" selected="Application.ClimbingStairs">
+    <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.ClimbingStairs" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FibonacciMemoization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.FibonacciMemoization" />
       <module name="DSA-JAVA" />
@@ -82,13 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SegmentTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.SegmentTrees" />
-      <module name="DSA-JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="st.SegmentTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="st.SegmentTrees" />
       <module name="DSA-JAVA" />
@@ -104,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.FibonacciTabulation" />
         <item itemvalue="Application.FibonacciMemoization" />
         <item itemvalue="Application.st.SegmentTrees" />
         <item itemvalue="Application.SegmentTree" />
-        <item itemvalue="Application.SegmentTrees" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717677593067</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dp">
+      <created>1717679452386</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717679452386</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
