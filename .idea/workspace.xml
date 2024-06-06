@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp">
-      <change afterPath="$PROJECT_DIR$/src/dp/ClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/ClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717679452386</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dp">
+      <created>1717681257882</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717681257882</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dp">
+      <created>1717681444518</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717681444518</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
