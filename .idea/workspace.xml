@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="segment tree update">
-      <change afterPath="$PROJECT_DIR$/src/dp/Fibonacci.java" afterDir="false" />
+    <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp">
+      <change afterPath="$PROJECT_DIR$/src/dp/FibonacciTabulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/FibonacciMemoization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +42,22 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Fibonacci">
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.Fibonacci" />
+  <component name="RunManager" selected="Application.FibonacciTabulation">
+    <configuration name="FibonacciMemoization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.FibonacciMemoization" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTabulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.FibonacciTabulation" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.FibonacciTabulation" />
+        <item itemvalue="Application.FibonacciMemoization" />
         <item itemvalue="Application.st.SegmentTrees" />
         <item itemvalue="Application.SegmentTree" />
         <item itemvalue="Application.SegmentTrees" />
@@ -148,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717507539261</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dp">
+      <created>1717677431048</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717677431048</updated>
+    </task>
+    <task id="LOCAL-00008" summary="dp">
+      <created>1717677593067</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717677593067</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +197,7 @@
     <MESSAGE value="segment tree construction" />
     <MESSAGE value="segment tree range queries" />
     <MESSAGE value="segment tree update" />
-    <option name="LAST_COMMIT_MESSAGE" value="segment tree update" />
+    <MESSAGE value="dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp" />
   </component>
 </project>
