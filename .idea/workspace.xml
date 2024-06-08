@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp">
-      <change beforePath="$PROJECT_DIR$/src/dp/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/Zero_ONEKnackSack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ClimbingStairs">
+  <component name="RunManager" selected="Application.Zero_ONEKnackSack">
     <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.ClimbingStairs" />
       <module name="DSA-JAVA" />
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SegmentTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="segmenttree.SegmentTree" />
+    <configuration name="Zero_ONEKnackSack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.Zero_ONEKnackSack" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="st.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zero_ONEKnackSack" />
+        <item itemvalue="Application.FibonacciMemoization" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.FibonacciTabulation" />
-        <item itemvalue="Application.FibonacciMemoization" />
         <item itemvalue="Application.st.SegmentTrees" />
-        <item itemvalue="Application.SegmentTree" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717681444518</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="dp">
+      <created>1717681785902</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717681785902</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
