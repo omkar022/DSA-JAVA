@@ -12,7 +12,6 @@ public class Zero_ONEKnackSack {
             }
 
         }
-
         System.out.println(maxProfitMemo(val, wt, W, val.length, dp));
         System.out.println(maxprofitTabu(val,wt,W));
 
