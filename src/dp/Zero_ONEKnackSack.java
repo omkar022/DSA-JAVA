@@ -21,5 +21,6 @@ public class Zero_ONEKnackSack {
             return maxProfit(val, wt, w, idx - 1);
         }
 
+
     }
 }
