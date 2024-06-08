@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp2">
+    <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp memo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dp/Zero_ONEKnackSack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/Zero_ONEKnackSack.java" afterDir="false" />
     </list>
@@ -224,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717825150881</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="dp memo">
+      <created>1717825802762</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717825802762</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +254,7 @@
     <MESSAGE value="dp" />
     <MESSAGE value="dp1" />
     <MESSAGE value="dp2" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp2" />
+    <MESSAGE value="dp memo" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp memo" />
   </component>
 </project>
