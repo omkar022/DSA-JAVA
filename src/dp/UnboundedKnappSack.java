@@ -26,6 +26,12 @@ public class UnboundedKnappSack {
                 }
             }
         }
+        for (int[] f : dp) {
+            for (int s : f) {
+                System.out.print(s + " ");
+            }
+            System.out.println();
+        }
         return dp[val.length][W];
     }
 }
