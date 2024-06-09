@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp memo">
+    <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp Tab">
+      <change afterPath="$PROJECT_DIR$/src/dp/Z1Knapp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/ClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/FibonacciMemoization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/FibonacciMemoization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/FibonacciTabulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/FibonacciTabulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dp/Zero_ONEKnackSack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/Zero_ONEKnackSack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Zero_ONEKnackSack">
+  <component name="RunManager" selected="Application.Z1Knapp">
     <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.ClimbingStairs" />
       <module name="DSA-JAVA" />
@@ -68,8 +72,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciTabulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.FibonacciTabulation" />
+    <configuration name="MemoPra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MemoPra" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z1Knapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.Z1Knapp" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -94,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="st.SegmentTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="st.SegmentTrees" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="st.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Z1Knapp" />
         <item itemvalue="Application.Zero_ONEKnackSack" />
-        <item itemvalue="Application.FibonacciMemoization" />
         <item itemvalue="Application.ClimbingStairs" />
-        <item itemvalue="Application.FibonacciTabulation" />
-        <item itemvalue="Application.st.SegmentTrees" />
+        <item itemvalue="Application.FibonacciMemoization" />
+        <item itemvalue="Application.MemoPra" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717825802762</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="dp memo">
+      <created>1717835508812</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717835508812</updated>
+    </task>
+    <task id="LOCAL-00017" summary="dp Tab">
+      <created>1717835521920</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717835521920</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +273,7 @@
     <MESSAGE value="dp1" />
     <MESSAGE value="dp2" />
     <MESSAGE value="dp memo" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp memo" />
+    <MESSAGE value="dp Tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp Tab" />
   </component>
 </project>

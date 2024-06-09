@@ -1,7 +1,7 @@
 package dp;
 
 public class FibonacciMemoization {
-    // TODO *Iterations
+
     public static int fib(int n, int[] f) {
         if (n == 0 || n == 1) {
             return n;

@@ -8,6 +8,11 @@ public class ClimbingStairs {
         int memo[]=new int[n+1];
         Arrays.fill(memo,-1);
         System.out.println(ways(n,memo));
+        for (int i = 0; i < memo.length; i++) {
+            System.out.print(memo[i]+" ");
+        }
+        System.out.println();
+
     }
 
     private static int ways(int n,int memo[]) {
