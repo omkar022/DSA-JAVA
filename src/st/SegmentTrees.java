@@ -1,7 +1,7 @@
 package st;
 
 public class SegmentTrees {
-    static int tree[];
+    static int[] tree;
 
     static void init(int n) {
         tree = new int[4 * n];
@@ -27,7 +27,7 @@ public class SegmentTrees {
     }
 
     public static void updateUtil(int i, int si, int sj, int idx, int diff) {
-        if (idx >sj || idx < si) {
+        if (idx > sj || idx < si) {
             return;
         }
         tree[i] += diff;
