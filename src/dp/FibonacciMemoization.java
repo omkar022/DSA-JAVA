@@ -12,6 +12,7 @@ public class FibonacciMemoization {
         f[n] = fib(n - 1, f) + fib(n - 2, f);
         return f[n];
     }
+
     public static void main(String[] args) {
         int n = 6;
         int[] f = new int[n + 1];

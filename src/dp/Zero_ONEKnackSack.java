@@ -13,7 +13,7 @@ public class Zero_ONEKnackSack {
 
         }
         System.out.println(maxProfitMemo(val, wt, W, val.length, dp));
-        System.out.println(maxprofitTabu(val,wt,W));
+        System.out.println(maxprofitTabu(val, wt, W));
 
     }
 
@@ -50,12 +50,12 @@ public class Zero_ONEKnackSack {
         }
         for (int i = 1; i < n + 1; i++) {
             for (int j = 1; j < W + 1; j++) {
-                int v=val[i-1];
-                int w=wt[i-1];
+                int v = val[i - 1];
+                int w = wt[i - 1];
                 if (w <= j) {
-                    int inclProfit = v + dp[i - 1][j-w];
+                    int inclProfit = v + dp[i - 1][j - w];
                     int exclProfit = dp[i - 1][j];
-                    dp[i][j]= Math.max(inclProfit,exclProfit);
+                    dp[i][j] = Math.max(inclProfit, exclProfit);
                 } else {
                     dp[i][j] = dp[i - 1][j];
 
@@ -65,8 +65,6 @@ public class Zero_ONEKnackSack {
 
         return dp[n][W];
     }
-
-
 
 
 }
