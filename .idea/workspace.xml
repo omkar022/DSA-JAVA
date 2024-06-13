@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp Tab">
-      <change afterPath="$PROJECT_DIR$/src/dp/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/StringConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.EditDistance">
+  <component name="RunManager" selected="Application.StringConversion">
     <configuration name="EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.EditDistance" />
       <module name="DSA-JAVA" />
@@ -94,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.P" />
+    <configuration name="StringConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.StringConversion" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringConversion" />
         <item itemvalue="Application.EditDistance" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
         <item itemvalue="Application.LongestCommonSubstring" />
         <item itemvalue="Application.LongestCommonSubsequence" />
-        <item itemvalue="Application.P" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +301,21 @@
       <option name="project" value="LOCAL" />
       <updated>1718198294343</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="dp Tab">
+      <created>1718248364080</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1718248364080</updated>
+    </task>
+    <task id="LOCAL-00027" summary="dp Tab">
+      <created>1718248454875</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1718248454875</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
