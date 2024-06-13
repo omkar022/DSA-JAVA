@@ -14,25 +14,14 @@ public class EditDistance {
 
 
         int[][] dp = new int[m + 1][n + 1];
+
         for (int i = 0; i <= m; i++) {
             dp[i][0] = i;
         }
-        for (int i = 0; i < dp.length; i++) {
-            for (int j = 0; j < dp[0].length; j++) {
-                System.out.print(dp[i][j] + " ");
-            }
-            System.out.println();
-        }
-        System.out.println();
         for (int j = 0; j <= n; j++) {
             dp[0][j] = j;
         }
-        for (int i = 0; i < dp.length; i++) {
-            for (int j = 0; j < dp[0].length; j++) {
-                System.out.print(dp[i][j] + " ");
-            }
-            System.out.println();
-        }
+
         for (int i = 1; i <= m; i++) {
             for (int j = 1; j <= n; j++) {
                 if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
@@ -44,13 +33,15 @@ public class EditDistance {
             }
 
         }
-        System.out.println();
+
+
         for (int i = 0; i < dp.length; i++) {
             for (int j = 0; j < dp[0].length; j++) {
                 System.out.print(dp[i][j] + " ");
             }
             System.out.println();
         }
+
         System.out.println();
         return dp[m][n];
     }
