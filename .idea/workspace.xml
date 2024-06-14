@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp Tab">
-      <change afterPath="$PROJECT_DIR$/src/dp/WildcardMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/CatalansNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +41,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WildcardMatching">
-    <configuration name="EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.EditDistance" />
+  <component name="RunManager" selected="Application.CatalansNumber">
+    <configuration name="CatalansNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.CatalansNumber" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.LongestCommonSubstring" />
+    <configuration name="EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.EditDistance" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CatalansNumber" />
         <item itemvalue="Application.WildcardMatching" />
         <item itemvalue="Application.StringConversion" />
         <item itemvalue="Application.EditDistance" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
-        <item itemvalue="Application.LongestCommonSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718250813303</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="dp Tab">
+      <created>1718360201068</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1718360201068</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
