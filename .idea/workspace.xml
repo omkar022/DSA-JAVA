@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp Tab">
-      <change afterPath="$PROJECT_DIR$/src/dp/HowManyBSTs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MountainRanges.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HowManyBSTs">
+  <component name="RunManager" selected="Application.MountainRanges">
     <configuration name="CatalansNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.CatalansNumber" />
       <module name="DSA-JAVA" />
@@ -55,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.EditDistance" />
+    <configuration name="HowManyBSTs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.HowManyBSTs" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HowManyBSTs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.HowManyBSTs" />
+    <configuration name="MountainRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MountainRanges" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MountainRanges" />
         <item itemvalue="Application.HowManyBSTs" />
         <item itemvalue="Application.CatalansNumber" />
         <item itemvalue="Application.WildcardMatching" />
         <item itemvalue="Application.StringConversion" />
-        <item itemvalue="Application.EditDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718364058837</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="dp Tab">
+      <created>1718365580321</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1718365580321</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
