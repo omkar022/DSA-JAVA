@@ -6,10 +6,10 @@ public class CatalansNumber {
         int n = 4;
         int[] dp = new int[n + 1];
         System.out.println(catalan(n, dp));
-        System.out.println(catalanMemo(n));
+        System.out.println(catalanTab(n));
     }
 
-    private static int catalanMemo(int n) {
+    private static int catalanTab(int n) {
         int[] dp = new int[n + 1];
         dp[0] = 1;
         dp[1] = 1;
