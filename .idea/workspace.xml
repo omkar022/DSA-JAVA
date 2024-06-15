@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp Tab">
-      <change afterPath="$PROJECT_DIR$/src/dp/MatrixChainMultiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/MatrixChainMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/MatrixChainMultiplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718366999301</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="dp Tab">
+      <created>1718426293419</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1718426293419</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
