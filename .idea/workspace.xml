@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp Tab">
+      <change afterPath="$PROJECT_DIR$/src/dp/MinimumPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dp/MatrixChainMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/MatrixChainMultiplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MountainRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MountainRanges" />
+    <configuration name="MinimumPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MinimumPartition" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildcardMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.WildcardMatching" />
+    <configuration name="MountainRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MountainRanges" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -109,10 +111,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MatrixChainMultiplication" />
+        <item itemvalue="Application.MinimumPartition" />
         <item itemvalue="Application.MountainRanges" />
         <item itemvalue="Application.HowManyBSTs" />
         <item itemvalue="Application.CatalansNumber" />
-        <item itemvalue="Application.WildcardMatching" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718426293419</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="dp Tab">
+      <created>1718426971594</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1718426971594</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
