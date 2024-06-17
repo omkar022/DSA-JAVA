@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="bfs">
-      <change afterPath="$PROJECT_DIR$/src/graph/DFS.java" afterDir="false" />
+    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="dfs">
+      <change afterPath="$PROJECT_DIR$/src/graph/HasPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/BFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunManager" selected="Application.DFS">
+  <component name="RunManager" selected="Application.HasPath">
     <configuration name="BFS (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.BFS" />
       <module name="DSA-JAVA" />
@@ -63,6 +65,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.HasPath" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.P" />
       <module name="DSA-JAVA" />
@@ -78,14 +93,38 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HasPath" />
+        <item itemvalue="Application.BFS" />
         <item itemvalue="Application.DFS" />
         <item itemvalue="Application.BFS (1)" />
         <item itemvalue="Application.P" />
-        <item itemvalue="Application.BFS" />
       </list>
     </recent_temporary>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="dfs">
+      <created>1718602341211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718602341211</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfs" />
   </component>
 </project>
