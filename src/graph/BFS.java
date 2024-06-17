@@ -60,13 +60,14 @@ public class BFS {
     public static void main(String[] args) {
 
         ArrayList<Edge>[] graph = new ArrayList[V];
+
         createGraph(graph);
+
         boolean[] vis = new boolean[V];
         for (int i = 0; i < V; i++) {
             if (!vis[i]) {
                 bfs(graph, vis, i);
             }
-
         }
 
     }
