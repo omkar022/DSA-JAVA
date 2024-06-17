@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="graph">
       <change afterPath="$PROJECT_DIR$/src/graph/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/AllPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/AllPaths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OrangesRotting">
+  <component name="RunManager" selected="Application.NumberOfIslands">
     <configuration name="AllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.AllPaths" />
       <module name="DSA-JAVA" />
@@ -66,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.DFS" />
+    <configuration name="HasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.HasPath" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.HasPath" />
+    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.NumberOfIslands" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.OrangesRotting" />
         <item itemvalue="Application.AllPaths" />
         <item itemvalue="Application.HasPath" />
         <item itemvalue="Application.BFS" />
-        <item itemvalue="Application.DFS" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718613378890</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="graph">
+      <created>1718621129443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718621129443</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
