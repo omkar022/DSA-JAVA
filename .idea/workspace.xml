@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="dp Tab">
-      <change afterPath="$PROJECT_DIR$/src/graph/GraphCreation.java" afterDir="false" />
+    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="st">
+      <change afterPath="$PROJECT_DIR$/src/graph/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/P.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,37 +14,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2hPXGS5480YcZBKCvls359v9wth" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
-  }
-}</component>
-  <component name="RunManager" selected="Application.GraphCreation">
-    <configuration name="GraphCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.GraphCreation" />
+  <component name="RunManager" selected="Application.BFS (1)">
+    <configuration name="BFS (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.BFS" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -55,12 +32,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixChainMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MatrixChainMultiplication" />
+    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.BFS" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,38 +45,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinArrayJumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MinArrayJumps" />
+    <configuration name="P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.P" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MinimumPartition" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MountainRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MountainRanges" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,331 +60,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GraphCreation" />
-        <item itemvalue="Application.MinArrayJumps" />
-        <item itemvalue="Application.MatrixChainMultiplication" />
-        <item itemvalue="Application.MinimumPartition" />
-        <item itemvalue="Application.MountainRanges" />
+        <item itemvalue="Application.BFS (1)" />
+        <item itemvalue="Application.P" />
+        <item itemvalue="Application.BFS" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="9892b718-d3ba-4621-8149-edbdfaa74561" name="Changes" comment="" />
-      <created>1717496607839</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1717496607839</updated>
-    </task>
-    <task id="LOCAL-00001" summary="test">
-      <created>1717496968373</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1717496968373</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test1">
-      <created>1717497544994</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1717497544994</updated>
-    </task>
-    <task id="LOCAL-00003" summary="segment tree construction">
-      <created>1717502597132</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1717502597132</updated>
-    </task>
-    <task id="LOCAL-00004" summary="segment tree range queries">
-      <created>1717505021790</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1717505021790</updated>
-    </task>
-    <task id="LOCAL-00005" summary="segment tree update">
-      <created>1717507458062</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1717507458062</updated>
-    </task>
-    <task id="LOCAL-00006" summary="segment tree update">
-      <created>1717507539261</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1717507539261</updated>
-    </task>
-    <task id="LOCAL-00007" summary="dp">
-      <created>1717677431048</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1717677431048</updated>
-    </task>
-    <task id="LOCAL-00008" summary="dp">
-      <created>1717677593067</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1717677593067</updated>
-    </task>
-    <task id="LOCAL-00009" summary="dp">
-      <created>1717679452386</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1717679452386</updated>
-    </task>
-    <task id="LOCAL-00010" summary="dp">
-      <created>1717681257882</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1717681257882</updated>
-    </task>
-    <task id="LOCAL-00011" summary="dp">
-      <created>1717681444518</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1717681444518</updated>
-    </task>
-    <task id="LOCAL-00012" summary="dp">
-      <created>1717681785902</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1717681785902</updated>
-    </task>
-    <task id="LOCAL-00013" summary="dp1">
-      <created>1717825131758</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1717825131758</updated>
-    </task>
-    <task id="LOCAL-00014" summary="dp2">
-      <created>1717825150881</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1717825150881</updated>
-    </task>
-    <task id="LOCAL-00015" summary="dp memo">
-      <created>1717825802762</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1717825802762</updated>
-    </task>
-    <task id="LOCAL-00016" summary="dp memo">
-      <created>1717835508812</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1717835508812</updated>
-    </task>
-    <task id="LOCAL-00017" summary="dp Tab">
-      <created>1717835521920</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1717835521920</updated>
-    </task>
-    <task id="LOCAL-00018" summary="dp Tab">
-      <created>1717904716119</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1717904716119</updated>
-    </task>
-    <task id="LOCAL-00019" summary="dp Tab">
-      <created>1717907116260</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1717907116260</updated>
-    </task>
-    <task id="LOCAL-00020" summary="dp Tab">
-      <created>1717921409995</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1717921409995</updated>
-    </task>
-    <task id="LOCAL-00021" summary="dp Tab">
-      <created>1717924856691</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1717924856691</updated>
-    </task>
-    <task id="LOCAL-00022" summary="dp Tab">
-      <created>1717925302248</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1717925302248</updated>
-    </task>
-    <task id="LOCAL-00023" summary="dp Tab">
-      <created>1717925317609</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1717925317609</updated>
-    </task>
-    <task id="LOCAL-00024" summary="dp Tab">
-      <created>1718195038728</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1718195038728</updated>
-    </task>
-    <task id="LOCAL-00025" summary="dp Tab">
-      <created>1718198294343</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1718198294343</updated>
-    </task>
-    <task id="LOCAL-00026" summary="dp Tab">
-      <created>1718248364080</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1718248364080</updated>
-    </task>
-    <task id="LOCAL-00027" summary="dp Tab">
-      <created>1718248454875</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1718248454875</updated>
-    </task>
-    <task id="LOCAL-00028" summary="dp Tab">
-      <created>1718250813303</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1718250813303</updated>
-    </task>
-    <task id="LOCAL-00029" summary="dp Tab">
-      <created>1718360201068</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1718360201068</updated>
-    </task>
-    <task id="LOCAL-00030" summary="dp Tab">
-      <created>1718361953470</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1718361953470</updated>
-    </task>
-    <task id="LOCAL-00031" summary="dp Tab">
-      <created>1718362241736</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1718362241736</updated>
-    </task>
-    <task id="LOCAL-00032" summary="dp Tab">
-      <created>1718362253432</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1718362253432</updated>
-    </task>
-    <task id="LOCAL-00033" summary="dp Tab">
-      <created>1718364058837</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1718364058837</updated>
-    </task>
-    <task id="LOCAL-00034" summary="dp Tab">
-      <created>1718365580321</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1718365580321</updated>
-    </task>
-    <task id="LOCAL-00035" summary="dp Tab">
-      <created>1718366999301</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1718366999301</updated>
-    </task>
-    <task id="LOCAL-00036" summary="dp Tab">
-      <created>1718426293419</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1718426293419</updated>
-    </task>
-    <task id="LOCAL-00037" summary="dp Tab">
-      <created>1718426971594</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1718426971594</updated>
-    </task>
-    <task id="LOCAL-00038" summary="dp Tab">
-      <created>1718446855892</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1718446855892</updated>
-    </task>
-    <task id="LOCAL-00039" summary="dp Tab">
-      <created>1718455389092</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1718455389092</updated>
-    </task>
-    <option name="localTasksCounter" value="40" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
-    <MESSAGE value="test1" />
-    <MESSAGE value="segment tree construction" />
-    <MESSAGE value="segment tree range queries" />
-    <MESSAGE value="segment tree update" />
-    <MESSAGE value="dp" />
-    <MESSAGE value="dp1" />
-    <MESSAGE value="dp2" />
-    <MESSAGE value="dp memo" />
-    <MESSAGE value="dp Tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp Tab" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
