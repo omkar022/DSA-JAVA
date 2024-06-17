@@ -58,7 +58,6 @@ public class AllPaths {
             if (!vis[e.dest]) {
                 allPathsPrint(graph, vis, e.dest, path + "->" + e.dest, dest);
             }
-
         }
         vis[src] = false;
 
