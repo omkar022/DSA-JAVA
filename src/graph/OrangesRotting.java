@@ -13,8 +13,8 @@ public class OrangesRotting {
         }
     }
     public  static int orangesRotting(int[][] grid) {
-        Queue<Position> q=new LinkedList<>();
-        int total=0,rotton=0,time=0;
+        Queue<Position> q = new LinkedList<>();
+        int total = 0, rotten = 0, time = 0;
 
 
         for(int i=0;i<grid.length;i++){
@@ -32,15 +32,15 @@ public class OrangesRotting {
             return 0;
         }
 
-        while(!q.isEmpty() && rotton < total){
-            int size=q.size();
+        while (!q.isEmpty() && rotten < total) {
+            int size = q.size();
 
-            rotton+=size;
-            
-            if(rotton==total){
+            rotten += size;
+
+            if (rotten == total) {
                 return time;
             }
-            
+
             time++;
 
             for(int i=0;i<size;i++){

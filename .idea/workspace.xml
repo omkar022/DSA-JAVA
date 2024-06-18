@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="graph">
-      <change beforePath="$PROJECT_DIR$/src/graph/CycleDetectionDirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/CycleDetectionDirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/OrangesRotting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/OrangesRotting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CycleDetectionDirectedGraph">
+  <component name="RunManager" selected="Application.OrangesRotting">
     <configuration name="AllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.AllPaths" />
       <module name="DSA-JAVA" />
@@ -53,19 +54,6 @@
     </configuration>
     <configuration name="CycleDetectionDirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.CycleDetectionDirectedGraph" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.HasPath" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +91,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.P" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrangesRotting" />
+        <item itemvalue="Application.P" />
         <item itemvalue="Application.CycleDetectionDirectedGraph" />
         <item itemvalue="Application.NumberOfIslands" />
-        <item itemvalue="Application.OrangesRotting" />
         <item itemvalue="Application.AllPaths" />
-        <item itemvalue="Application.HasPath" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718709977825</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="graph">
+      <created>1718710121408</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718710121408</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
