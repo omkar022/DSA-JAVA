@@ -32,12 +32,11 @@ public class CycleDetectionDirectedGraph {
             if (!vis[i]) {
                 boolean isCycle = cycleDetect(graph, 0, vis, rec);
                 if (isCycle) {
-                    System.out.println(isCycle);
-                    break;
+                    System.out.println(true);
                 } else {
                     System.out.println(false);
-                    break;
                 }
+                break;
             }
         }
 
