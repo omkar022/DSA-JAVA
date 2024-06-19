@@ -62,7 +62,7 @@ public class OrangesRotting {
                     q.add(new Position(p.x,p.y+1));
                 }
 
-                  if(p.y-1>=0 && grid[p.x][p.y-1]==1){
+                if(p.y-1>=0 && grid[p.x][p.y-1]==1){
                     grid[p.x][p.y-1]=2;
                     q.add(new Position(p.x,p.y-1));
                 }
