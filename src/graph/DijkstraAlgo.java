@@ -3,7 +3,7 @@ package graph;
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 
-//Shortest Path
+//Shortest Path -fails -ve value -O(E+ElogV)
 public class DijkstraAlgo {
     static int V = 6;
 
