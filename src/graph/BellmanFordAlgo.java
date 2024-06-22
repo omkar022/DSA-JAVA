@@ -21,7 +21,7 @@ public class BellmanFordAlgo {
         graph[3].add(new Edge(3, 4, 4));
 
         graph[4].add(new Edge(4, 1, -1));
-
+//        graph[4].add(new Edge(4, 1, -10));
     }
 
     public static void main(String[] args) {
@@ -50,6 +50,17 @@ public class BellmanFordAlgo {
                     if(dist[u]!=Integer.MAX_VALUE && dist[u]+e.wt<dist[v]){
                         dist[v]=dist[u]+e.wt;
                     }
+                }
+            }
+        }
+
+        for (int i = 0; i < V; i++) {  //O(E)
+            for (int j = 0; j < graph[i].size(); j++) {
+                Edge e = graph[i].get(j);
+                int u=e.src;
+                int v=e.dest;
+                if(dist[u]!=Integer.MAX_VALUE && dist[u]+e.wt<dist[v]){
+                    System.out.println("Negative Weight Cycle");
                 }
             }
         }
