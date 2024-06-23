@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="graph">
-      <change afterPath="$PROJECT_DIR$/src/graph/P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/MinimumSpanningTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/BellmanFordAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/BellmanFordAlgo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.MinimumSpanningTree">
     <configuration name="BellmanFordAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.BellmanFordAlgo" />
       <module name="DSA-JAVA" />
@@ -56,6 +54,19 @@
     </configuration>
     <configuration name="DijkstraAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.DijkstraAlgo" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumSpanningTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.MinimumSpanningTree" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -93,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopologicalSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.TopologicalSorting" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumSpanningTree" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.BellmanFordAlgo" />
         <item itemvalue="Application.P" />
         <item itemvalue="Application.DijkstraAlgo" />
-        <item itemvalue="Application.TopologicalSorting" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719048985711</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="graph">
+      <created>1719108326628</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719108326628</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
