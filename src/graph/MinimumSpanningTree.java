@@ -32,30 +32,42 @@ public class MinimumSpanningTree { //O(ElogE)
         ArrayList<Edge>[] graph = new ArrayList[V];
         createGraph(graph);
         System.out.println(primsAlgoMST(graph, 0));
+        ArrayList<Edge> mst = primsAlgoMST(graph, 0);
+        System.out.println("Edges in the Minimum Spanning Tree:");
+        for (Edge edge : mst) {
+            System.out.println("Edge: " + edge.src + " - " + edge.dest + " with weight: " + edge.wt);
+        }
 
 
     }
 
-    private static int primsAlgoMST(ArrayList<Edge>[] graph, int src) {
+    //    private static int primsAlgoMST(ArrayList<Edge>[] graph, int src) {
+    private static ArrayList<Edge> primsAlgoMST(ArrayList<Edge>[] graph, int src) {
         PriorityQueue<Pair> pq = new PriorityQueue<>();
         pq.add(new Pair(src, 0));
 
         boolean[] vis = new boolean[V];
+        ArrayList<Edge> mst = new ArrayList<>();
+
         int cost = 0;
         while (!pq.isEmpty()) {
             Pair curr = pq.remove();
             if (!vis[curr.node]) {
                 vis[curr.node] = true;
                 cost += curr.cost;
+                if (curr.edge != null) {
+                    mst.add(curr.edge);
+                }
                 for (int i = 0; i < graph[curr.node].size(); i++) {
                     Edge e = graph[curr.node].get(i);
                     if (!vis[e.dest]) {
-                        pq.add(new Pair(e.dest, e.wt));
+                        pq.add(new Pair(e.dest, e.wt, e));
                     }
                 }
             }
         }
-        return cost;
+//        return cost;
+        return mst;
 
     }
 
@@ -74,10 +86,17 @@ public class MinimumSpanningTree { //O(ElogE)
     static class Pair implements Comparable<Pair> {
         int node;
         int cost;
+        Edge edge;
 
         public Pair(int node, int cost) {
             this.node = node;
             this.cost = cost;
+        }
+
+        public Pair(int node, int cost, Edge edge) {
+            this.node = node;
+            this.cost = cost;
+            this.edge = edge;
         }
 
         public int compareTo(Pair p2) {
