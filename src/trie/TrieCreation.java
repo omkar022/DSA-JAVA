@@ -12,6 +12,7 @@ public class TrieCreation {
 
         System.out.println(search("the"));
         System.out.println(search("an"));
+        System.out.println(startWith("the"));
 
 
     }
@@ -44,6 +45,18 @@ public class TrieCreation {
             curr = curr.children[idx];
         }
 
+    }
+
+    private static boolean startWith(String key) {
+        Node curr = root;
+        for (int i = 0; i < key.length(); i++) {
+            int idx = key.charAt(i) - 'a';
+            if (curr.children[idx] == null) {
+                return false;
+            }
+            curr = curr.children[idx];
+        }
+        return true;
     }
 
     static class Node {
