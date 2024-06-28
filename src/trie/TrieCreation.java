@@ -1,7 +1,7 @@
 package trie;
 
 //O(L)=word length
-public class Trie {
+public class TrieCreation {
     static Node root = new Node();
 
     public static void main(String[] args) {
