@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="trie">
+      <change afterPath="$PROJECT_DIR$/src/trie/CountUniqueSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trie/WordBreakProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trie/WordBreakProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +38,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TrieCreation">
-    <configuration name="ArticulationPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.ArticulationPoint" />
+  <component name="RunManager" selected="Application.CountUniqueSubstring">
+    <configuration name="CountUniqueSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trie.CountUniqueSubstring" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountUniqueSubstring" />
         <item itemvalue="Application.TrieCreation" />
         <item itemvalue="Application.WordBreakProblem" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TrieCreation" />
-        <item itemvalue="Application.ArticulationPoint" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719564592213</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="trie">
+      <created>1719566494313</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719566494313</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
