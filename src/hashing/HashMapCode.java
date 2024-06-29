@@ -71,10 +71,10 @@ public class HashMapCode {
                 LinkedList<Node> ll = oldBuck[i];
 
                 for (int j = 0; j < ll.size(); j++) {
-                    while (!ll.isEmpty()) {
-                        Node node = ll.remove();
+
+                    Node node = ll.remove();
                         put(node.key, node.value);
-                    }
+
 
                 }
             }
