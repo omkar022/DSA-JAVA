@@ -5,6 +5,7 @@ import java.util.HashMap;
 public class SubArraySumEqualsToK {
     public static void main(String[] args) {
         int[] arr = {10, 2, -2, -20, 10};
+
         System.out.println(sumEqualKCountSubArray(arr, -10));
     }
 
