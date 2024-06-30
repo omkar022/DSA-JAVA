@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="hashing">
-      <change afterPath="$PROJECT_DIR$/src/hashing/ItineraryTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/LargestSubArraySum0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/SubArraySumEqualsToK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ItineraryTickets">
+  <component name="RunManager" selected="Application.LargestSubArraySum0">
     <configuration name="CountDistinctElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashing.CountDistinctElements" />
       <module name="DSA-JAVA" />
@@ -65,8 +66,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashing.MajorityElements" />
+    <configuration name="LargestSubArraySum0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.LargestSubArraySum0" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubArraySumEqualsToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.SubArraySumEqualsToK" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -91,26 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashing.ValidAnagram" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestSubArraySum0" />
+        <item itemvalue="Application.SubArraySumEqualsToK" />
         <item itemvalue="Application.ItineraryTickets" />
         <item itemvalue="Application.UnionAndIntersection" />
         <item itemvalue="Application.CountDistinctElements" />
-        <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.MajorityElements" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719724356124</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="hashing">
+      <created>1719728405344</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1719728405344</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
