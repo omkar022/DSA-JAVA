@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="PQ">
-      <change afterPath="$PROJECT_DIR$/src/bt/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bt/InOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bt/PostOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bt/PreOrder.java" afterDir="false" />
+    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="BT">
+      <change afterPath="$PROJECT_DIR$/src/bt/LevelOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PostOrder">
+  <component name="RunManager" selected="Application.LevelOrder">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bt.BinaryTree" />
       <module name="DSA-JAVA" />
@@ -57,6 +54,19 @@
     </configuration>
     <configuration name="InOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bt.InOrder" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bt.LevelOrder" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -94,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.SlidingWindowMaximum" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LevelOrder" />
         <item itemvalue="Application.PostOrder" />
         <item itemvalue="Application.InOrder" />
         <item itemvalue="Application.PreOrder" />
         <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.SlidingWindowMaximum" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723197703978</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="BT">
+      <created>1723199686868</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1723199686868</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,6 +424,7 @@
     <MESSAGE value="hm" />
     <MESSAGE value="hashing" />
     <MESSAGE value="PQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="PQ" />
+    <MESSAGE value="BT" />
+    <option name="LAST_COMMIT_MESSAGE" value="BT" />
   </component>
 </project>
