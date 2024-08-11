@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="BT">
+      <change afterPath="$PROJECT_DIR$/src/bt/InvertTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +38,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UnivalTree">
-    <configuration name="KthAncestorOfNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bt.KthAncestorOfNode" />
+  <component name="RunManager" selected="Application.InvertTree">
+    <configuration name="InvertTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bt.InvertTree" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -51,8 +52,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestDistanceBetween2Nodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bt.ShortestDistanceBetween2Nodes" />
+    <configuration name="KthAncestorOfNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bt.KthAncestorOfNode" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -105,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InvertTree" />
         <item itemvalue="Application.UnivalTree" />
         <item itemvalue="Application.TranformToSumTree (1)" />
         <item itemvalue="Application.TranformToSumTree" />
         <item itemvalue="Application.KthAncestorOfNode" />
-        <item itemvalue="Application.ShortestDistanceBetween2Nodes" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00003" summary="graph">
-      <created>1718613378890</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1718613378890</updated>
     </task>
     <task id="LOCAL-00004" summary="graph">
       <created>1718621129443</created>
@@ -465,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723350954441</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="BT">
+      <created>1723363784627</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1723363784628</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
