@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="Greedy">
-      <change afterPath="$PROJECT_DIR$/src/greedy/MinimumNumberOfCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/Chocola.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,9 +39,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinimumNumberOfCoins">
-    <configuration name="ActivitySelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.ActivitySelection" />
+  <component name="RunManager" selected="Application.Chocola">
+    <configuration name="Chocola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.Chocola" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chocola" />
         <item itemvalue="Application.MinimumNumberOfCoins" />
         <item itemvalue="Application.MaxLengthChainOfPairs" />
         <item itemvalue="Application.MinAbsoluteDifferencePairs" />
         <item itemvalue="Application.FractionalKnapSack" />
-        <item itemvalue="Application.ActivitySelection" />
       </list>
     </recent_temporary>
   </component>
