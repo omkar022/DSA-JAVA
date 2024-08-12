@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="Greedy">
-      <change afterPath="$PROJECT_DIR$/src/greedy/MinAbsoluteDifferencePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/MaxLengthChainOfPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinAbsoluteDifferencePairs">
+  <component name="RunManager" selected="Application.MaxLengthChainOfPairs">
     <configuration name="ActivitySelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedy.ActivitySelection" />
       <module name="DSA-JAVA" />
@@ -78,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxLengthChainOfPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.MaxLengthChainOfPairs" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinAbsoluteDifferencePairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedy.MinAbsoluteDifferencePairs" />
       <module name="DSA-JAVA" />
@@ -91,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnivalTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bt.UnivalTree" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxLengthChainOfPairs" />
         <item itemvalue="Application.MinAbsoluteDifferencePairs" />
         <item itemvalue="Application.FractionalKnapSack" />
         <item itemvalue="Application.ActivitySelection" />
         <item itemvalue="Application.InvertTree" />
-        <item itemvalue="Application.UnivalTree" />
       </list>
     </recent_temporary>
   </component>
@@ -122,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00006" summary="graph">
-      <created>1718709977825</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1718709977825</updated>
     </task>
     <task id="LOCAL-00007" summary="graph">
       <created>1718710121408</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723437568246</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Greedy">
+      <created>1723445626133</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1723445626133</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
