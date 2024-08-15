@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="Greedy">
-      <change afterPath="$PROJECT_DIR$/src/queue/QueueImplementationUsingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/QueueImplementationUsingCircular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/QueueUsingLL.java" afterDir="false" />
+    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="Queue">
+      <change afterPath="$PROJECT_DIR$/src/queue/QueueUsing2Stacks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +39,33 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.QueueUsingLL (2)">
+  <component name="RunManager" selected="Application.QueueUsing2Stacks (1)">
+    <configuration name="CircularQueueImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.CircularQueueImplementation" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularQueueImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.CircularQueueImplementation" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Implementation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.Implementation" />
       <module name="DSA-JAVA" />
@@ -146,19 +170,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueImplementationUsingCircular (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueImplementationUsingCircular" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QueueImplementationUsingCircular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.QueueImplementationUsingCircular" />
       <module name="DSA-JAVA" />
@@ -172,8 +183,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueUsingLL (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueUsingLL" />
+    <configuration name="QueueUsing2Stacks (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.QueueUsing2Stacks" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -185,7 +196,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueUsingLL (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueUsing2Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.QueueUsing2Stacks" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.QueueUsingArray" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueUsingLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.QueueUsingLL" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
@@ -213,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QueueUsingLL (2)" />
+        <item itemvalue="Application.QueueUsing2Stacks (1)" />
+        <item itemvalue="Application.QueueUsing2Stacks" />
+        <item itemvalue="Application.CircularQueueImplementation" />
+        <item itemvalue="Application.QueueUsingArray" />
         <item itemvalue="Application.QueueUsingLL (1)" />
-        <item itemvalue="Application.QueueUsingLL" />
-        <item itemvalue="Application.QueueImplementationUsingCircular (5)" />
-        <item itemvalue="Application.QueueImplementationUsingCircular" />
       </list>
     </recent_temporary>
   </component>
@@ -229,13 +266,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00009" summary="graph">
-      <created>1718802993484</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1718802993484</updated>
     </task>
     <task id="LOCAL-00010" summary="graph">
       <created>1719047132682</created>
@@ -573,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723472973948</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Queue">
+      <created>1723708675315</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1723708675315</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -596,6 +633,7 @@
     <MESSAGE value="PQ" />
     <MESSAGE value="BT" />
     <MESSAGE value="Greedy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Greedy" />
+    <MESSAGE value="Queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queue" />
   </component>
 </project>
