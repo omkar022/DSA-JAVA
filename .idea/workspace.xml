@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="Queue">
-      <change afterPath="$PROJECT_DIR$/src/stack/StackCodeAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/StackCodeLL.java" afterDir="false" />
+    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="Stack">
+      <change afterPath="$PROJECT_DIR$/src/stack/PushAtBottomOfStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +39,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackCodeLL">
+  <component name="RunManager" selected="Application.PushAtBottomOfStack">
     <configuration name="CountUniqueSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trie.CountUniqueSubstring" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PushAtBottomOfStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.PushAtBottomOfStack" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,20 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackCodeLL (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.StackCodeLL" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackCodeLL (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StackCodeLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.StackCodeLL" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PushAtBottomOfStack" />
         <item itemvalue="Application.StackCodeLL" />
         <item itemvalue="Application.StackCodeAL" />
         <item itemvalue="Application.StackCodeLL (1)" />
         <item itemvalue="Application.CountUniqueSubstring" />
-        <item itemvalue="Application.StackCodeLL (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00013" summary="graph">
-      <created>1719108326628</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1719108326628</updated>
     </task>
     <task id="LOCAL-00014" summary="graph">
       <created>1719111297569</created>
@@ -468,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723861834454</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Stack">
+      <created>1723882119743</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1723882119743</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -492,6 +491,7 @@
     <MESSAGE value="BT" />
     <MESSAGE value="Greedy" />
     <MESSAGE value="Queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue" />
+    <MESSAGE value="Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
   </component>
 </project>
