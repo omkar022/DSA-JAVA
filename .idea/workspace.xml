@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="Queue">
-      <change afterPath="$PROJECT_DIR$/src/queue/StackUsing2Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/FirstNonRepeatingLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/Interleave2Halves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/QueueUsing2Stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/QueueUsing2Stacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +40,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackUsing2Queue (1)">
-    <configuration name="CircularQueueImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.CircularQueueImplementation" />
+  <component name="RunManager" selected="Application.Interleave2Halves">
+    <configuration name="FirstNonRepeatingLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.FirstNonRepeatingLetter" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -80,21 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementationUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.ImplementationUsingArray" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueUsing2Stacks (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueUsing2Stacks" />
+    <configuration name="Interleave2Halves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.Interleave2Halves" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -108,32 +95,6 @@
     </configuration>
     <configuration name="QueueUsing2Stacks (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.QueueUsing2Stacks" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueUsing2Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueUsing2Stacks" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueUsingLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueUsingLL" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -173,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interleave2Halves" />
+        <item itemvalue="Application.FirstNonRepeatingLetter" />
         <item itemvalue="Application.StackUsing2Queue (1)" />
         <item itemvalue="Application.StackUsing2Queue" />
         <item itemvalue="Application.QueueUsing2Stacks (2)" />
-        <item itemvalue="Application.QueueUsing2Stacks (1)" />
-        <item itemvalue="Application.QueueUsing2Stacks" />
       </list>
     </recent_temporary>
   </component>
@@ -189,13 +150,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00011" summary="graph">
-      <created>1719048649699</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1719048649699</updated>
     </task>
     <task id="LOCAL-00012" summary="graph">
       <created>1719048985711</created>
@@ -533,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723714097213</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Queue">
+      <created>1723724107270</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1723724107270</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
