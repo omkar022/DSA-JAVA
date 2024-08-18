@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="Stack">
-      <change afterPath="$PROJECT_DIR$/src/stack/PushAtBottomOfStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/StockSpanProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +40,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PushAtBottomOfStack">
-    <configuration name="CountUniqueSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trie.CountUniqueSubstring" />
+  <component name="RunManager" selected="Application.NextGreaterElement">
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.NextGreaterElement" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trie.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,13 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StockSpanProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.StockSpanProblem" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextGreaterElement" />
+        <item itemvalue="Application.StockSpanProblem" />
         <item itemvalue="Application.PushAtBottomOfStack" />
         <item itemvalue="Application.StackCodeLL" />
         <item itemvalue="Application.StackCodeAL" />
-        <item itemvalue="Application.StackCodeLL (1)" />
-        <item itemvalue="Application.CountUniqueSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00014" summary="graph">
-      <created>1719111297569</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1719111297569</updated>
     </task>
     <task id="LOCAL-00015" summary="graph">
       <created>1719114210947</created>
@@ -467,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723882119743</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Stack">
+      <created>1723883753502</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1723883753502</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
