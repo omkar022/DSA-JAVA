@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="Stack">
-      <change afterPath="$PROJECT_DIR$/src/stack/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/StockSpanProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NextGreaterElement">
+  <component name="RunManager" selected="Application.ParenthesisChecker">
     <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.NextGreaterElement" />
       <module name="DSA-JAVA" />
@@ -54,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PushAtBottomOfStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.PushAtBottomOfStack" />
+    <configuration name="ParenthesisChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.ParenthesisChecker" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackCodeAL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.StackCodeAL" />
+    <configuration name="PushAtBottomOfStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.PushAtBottomOfStack" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParenthesisChecker" />
         <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.StockSpanProblem" />
         <item itemvalue="Application.PushAtBottomOfStack" />
         <item itemvalue="Application.StackCodeLL" />
-        <item itemvalue="Application.StackCodeAL" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00015" summary="graph">
-      <created>1719114210947</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1719114210947</updated>
     </task>
     <task id="LOCAL-00016" summary="graph">
       <created>1719116803758</created>
@@ -481,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723883753502</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Stack">
+      <created>1723969696391</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1723969696392</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
