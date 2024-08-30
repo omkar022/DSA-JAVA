@@ -1,8 +1,10 @@
 package backtracking;
 
 public class N_Queens {
+    static int count = 0;
+
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         char[][] board = new char[n][n];
 
         for (int i = 0; i < n; i++) {
@@ -12,11 +14,15 @@ public class N_Queens {
         }
 
         nQueens(board, 0);
+        System.out.println("----total  ways---");
+        System.out.println(count);
     }
 
     private static void nQueens(char[][] board, int row) {
         if (row == board.length) {
             printBoard(board);
+            count++;
+            System.out.println(count);
             return;
         }
         for (int j = 0; j < board.length; j++) {
