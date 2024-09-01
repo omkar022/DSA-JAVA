@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="bt">
-      <change afterPath="$PROJECT_DIR$/src/twodarray/DiagonalSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twodarray/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twodarray/SearchInSortedMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DiagonalSum">
+  <component name="RunManager" selected="Application.SearchInSortedMatrix">
     <configuration name="DiagonalSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twodarray.DiagonalSum" />
       <module name="DSA-JAVA" />
@@ -54,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.GridWays" />
+    <configuration name="SearchInSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twodarray.SearchInSortedMatrix" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.*" />
+          <option name="PATTERN" value="twodarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInSortedMatrix" />
         <item itemvalue="Application.DiagonalSum" />
         <item itemvalue="Application.SpiralMatrix" />
         <item itemvalue="Application.TwoDArray" />
         <item itemvalue="Application.SudokoSolver" />
-        <item itemvalue="Application.GridWays" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00031" summary="hashing">
-      <created>1719745573399</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1719745573399</updated>
     </task>
     <task id="LOCAL-00032" summary="hashing">
       <created>1719745617314</created>
@@ -468,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725174255859</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="bt">
+      <created>1725183062760</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1725183062760</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
