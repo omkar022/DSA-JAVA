@@ -52,12 +52,12 @@ public class SudokoSolver {
     }
 
     private static boolean isSafe(int[][] sudoku, int row, int col, int digit) {
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < sudoku.length; i++) {
             if (sudoku[i][col] == digit) {
                 return false;
             }
         }
-        for (int j = 0; j < 9; j++) {
+        for (int j = 0; j < sudoku.length; j++) {
             if (sudoku[row][j] == digit) {
                 return false;
             }
