@@ -29,26 +29,19 @@ public class SudokoSolver {
     }
 
     public static boolean sudokuSolver(int[][] sudoku, int row, int col) {
-        if (row == 9) {
+        if (row == sudoku.length) {
             return true;
         }
-
-        int nextRow = row, nextCol = col + 1;
-
-
-        if (col + 1 == 9) {
-            nextRow = row + 1;
-            nextCol = 0;
+        if (col == sudoku[0].length) {
+            return sudokuSolver(sudoku, row + 1, col);
         }
-
         if (sudoku[row][col] != 0) {
-            return sudokuSolver(sudoku, nextRow, nextCol);
+            return sudokuSolver(sudoku, row, col + 1);
         }
-
         for (int digit = 1; digit <= 9; digit++) {
             if (isSafe(sudoku, row, col, digit)) {
                 sudoku[row][col] = digit;
-                if (sudokuSolver(sudoku, nextRow, nextCol)) {
+                if (sudokuSolver(sudoku, row, col + 1)) {
                     return true;
                 }
                 sudoku[row][col] = 0;
