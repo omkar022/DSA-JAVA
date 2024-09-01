@@ -10,7 +10,8 @@ public class GridWays {
     private static int gridWays(int i, int j, int n, int m, int[][] memo) {
         if (i == n - 1 && j == m - 1) {
             return 1;
-        } else if (i == n || j == m) {
+        }
+        if (i == n || j == m) {
             return 0;
         }
 
