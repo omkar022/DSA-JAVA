@@ -2,14 +2,16 @@ package trie;
 
 public class WordBreakProblem {
     static Node root = new Node();
+
     public static void main(String[] args) {
-        String[] words = {"i", "like", "sam", "samsung", "mobile","ice"};
-        String key="ilikesamsung";
+        String[] words = {"i", "like", "sam", "samsung", "mobile", "ice"};
+        String key = "ilikesamsung";
         for (int i = 0; i < words.length; i++) {
             insertion(words[i]);
         }
         System.out.println(wordBreak(key));
     }
+
     private static boolean search(String key) {
         Node curr = root;
         for (int i = 0; i < key.length(); i++) {
@@ -24,15 +26,16 @@ public class WordBreakProblem {
         }
         return true;
     }
-    public static  boolean wordBreak(String key){
-        if (key.length()==0){
+
+    public static boolean wordBreak(String key) {
+        if (key.length() == 0) {
             return true;
         }
-        for (int i = 1; i <=key.length() ; i++) {
-            String first=key.substring(0,i);
-            String second=key.substring(i);
+        for (int i = 1; i <= key.length(); i++) {
+            String first = key.substring(0, i);
+            String second = key.substring(i);
 
-            if (search(first) && wordBreak(second)){
+            if (search(first) && wordBreak(second)) {
                 return true;
             }
         }

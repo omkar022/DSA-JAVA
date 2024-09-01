@@ -31,11 +31,7 @@ public class CycleDetectionDirectedGraph {
         for (int i = 0; i < V; i++) {
             if (!vis[i]) {
                 boolean isCycle = cycleDetect(graph, 0, vis, rec);
-                if (isCycle) {
-                    System.out.println(true);
-                } else {
-                    System.out.println(false);
-                }
+                System.out.println(isCycle);
                 break;
             }
         }

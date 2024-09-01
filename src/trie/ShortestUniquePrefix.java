@@ -22,7 +22,7 @@ public class ShortestUniquePrefix {
             int idx = word.charAt(i) - 'a';
             if (curr.children[idx] == null) {
                 curr.children[idx] = new Node();
-            }else{
+            } else {
                 curr.children[idx].freq++;
             }
             if (i == word.length() - 1) {

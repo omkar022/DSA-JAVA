@@ -56,7 +56,7 @@ public class CountUniqueSubstring {
                 count += countNodes(root.children[i]);
             }
         }
-        return count+1;
+        return count + 1;
     }
 
     static class Node {

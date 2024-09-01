@@ -49,7 +49,6 @@ public class LongestWordWithAllPrefixes {
     }
 
 
-
     static class Node {
         Node[] children;
         boolean eow;

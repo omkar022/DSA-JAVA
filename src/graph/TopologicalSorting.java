@@ -47,7 +47,7 @@ public class TopologicalSorting {
 
 
         }
-        while (!s.isEmpty()){
+        while (!s.isEmpty()) {
             System.out.print(s.pop() + " ");
         }
     }

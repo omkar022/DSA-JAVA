@@ -68,9 +68,9 @@ public class MatrixChainMultiplication {
         for (int k = i; k < j; k++) {
             int cost1 = minCost(arr, i, k);
             int cost2 = minCost(arr, k + 1, j);
-            int cost3=arr[i-1]*arr[k]*arr[j];
-            int finalCost=cost1+cost2+cost3;
-            ans=Math.min(ans,finalCost);
+            int cost3 = arr[i - 1] * arr[k] * arr[j];
+            int finalCost = cost1 + cost2 + cost3;
+            ans = Math.min(ans, finalCost);
         }
         return ans;
 

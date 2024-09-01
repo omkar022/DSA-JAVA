@@ -10,22 +10,23 @@ public class ItineraryTickets {
         hm.put("Goa", "Chennai");
         hm.put("Delhi", "Goa");
 
-        String start=journeyPath(hm);
+        String start = journeyPath(hm);
         System.out.print(start);
-        for(String key:hm.keySet()){
-            System.out.print("->"+hm.get(start));
-            start=hm.get(start);
+        for (String key : hm.keySet()) {
+            System.out.print("->" + hm.get(start));
+            start = hm.get(start);
         }
         System.out.println();
     }
-    public static String journeyPath(HashMap<String,String>hm){
-        HashMap<String,String>rm=new HashMap<>();
 
-        for(String key: hm.keySet()){
-            rm.put(hm.get(key),key);
+    public static String journeyPath(HashMap<String, String> hm) {
+        HashMap<String, String> rm = new HashMap<>();
+
+        for (String key : hm.keySet()) {
+            rm.put(hm.get(key), key);
         }
-        for(String key:hm.keySet()){
-            if(!rm.containsKey(key)){
+        for (String key : hm.keySet()) {
+            if (!rm.containsKey(key)) {
                 return key;
             }
         }

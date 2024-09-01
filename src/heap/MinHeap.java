@@ -60,10 +60,10 @@ public class MinHeap {
             int left = 2 * i + 1;
             int right = 2 * i + 2;
             int minIdx = i;
-            if (left < arr.size() &&  arr.get(left) < arr.get(minIdx) ) {
+            if (left < arr.size() && arr.get(left) < arr.get(minIdx)) {
                 minIdx = left;
             }
-            if (right < arr.size() && arr.get(right)< arr.get(minIdx) ) {
+            if (right < arr.size() && arr.get(right) < arr.get(minIdx)) {
                 minIdx = right;
             }
             if (minIdx != i) {

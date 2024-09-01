@@ -29,13 +29,13 @@ public class KosarajusAlgo {
 
     }
 
-    public static void dfs(ArrayList<Edge>graph[],int curr,boolean vis[]){
-        vis[curr]=true;
-        System.out.print(curr+" ");
+    public static void dfs(ArrayList<Edge>[] graph, int curr, boolean[] vis) {
+        vis[curr] = true;
+        System.out.print(curr + " ");
         for (int i = 0; i < graph[curr].size(); i++) {
-            Edge e=graph[curr].get(i);
-            if(!vis[e.dest]){
-                dfs(graph,e.dest,vis);
+            Edge e = graph[curr].get(i);
+            if (!vis[e.dest]) {
+                dfs(graph, e.dest, vis);
             }
         }
     }
@@ -52,28 +52,26 @@ public class KosarajusAlgo {
 
         ArrayList<Edge>[] transpose = new ArrayList[V];
         for (int i = 0; i < graph.length; i++) {
-            vis[i]=false;
+            vis[i] = false;
             transpose[i] = new ArrayList<>();
         }
 
         for (int i = 0; i < V; i++) {
             for (int j = 0; j < graph[i].size(); j++) {
-                Edge e=graph[i].get(j);
-                transpose[e.dest].add(new Edge(e.dest,e.src));
+                Edge e = graph[i].get(j);
+                transpose[e.dest].add(new Edge(e.dest, e.src));
 
             }
         }
 
-        while (!s.isEmpty()){
-            int curr=s.pop();
+        while (!s.isEmpty()) {
+            int curr = s.pop();
 
-            if(!vis[curr]){
-                dfs(transpose,curr,vis);
+            if (!vis[curr]) {
+                dfs(transpose, curr, vis);
             }
             System.out.println();
         }
-
-
 
 
     }

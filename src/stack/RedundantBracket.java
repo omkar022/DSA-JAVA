@@ -5,7 +5,7 @@ import java.util.Stack;
 public class RedundantBracket {
     public static void main(String[] args) {
         String str1 = "((a+b))";
-        String str2 ="(a+b+(c+d))";
+        String str2 = "(a+b+(c+d))";
         System.out.println(checkRedundancy(str1));
     }
 

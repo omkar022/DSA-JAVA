@@ -15,11 +15,11 @@ public class SlidingWindowMaximum {
         res[0] = pq.peek().val;
 
         for (int i = k; i < arr.length; i++) {
-            while (pq.size()>0 && pq.peek().idx <= (i - k)) {
+            while (pq.size() > 0 && pq.peek().idx <= (i - k)) {
                 pq.remove();
             }
             pq.add(new Pair(arr[i], i));
-            res[i-k+1] = pq.peek().val;
+            res[i - k + 1] = pq.peek().val;
         }
 
         for (int i = 0; i < res.length; i++) {
