@@ -1,17 +1,27 @@
 package ll;
+
 class LL {
-     static class Node {
-        int data;
-        Node next;
-
-        Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
-
     private Node head;
 
+    public static void main(String[] args) {
+        LL list = new LL();
+
+        list.addFirst(10);
+        list.addFirst(20);
+        list.addLast(30);
+        list.addLast(40);
+
+        System.out.println("Linked list after additions:");
+        list.printList();
+
+        list.deleteFirst();
+        System.out.println("Linked list after deleting first element:");
+        list.printList();
+
+        list.deleteLast();
+        System.out.println("Linked list after deleting last element:");
+        list.printList();
+    }
 
     public void addFirst(int data) {
         Node newNode = new Node(data);
@@ -65,23 +75,13 @@ class LL {
         System.out.println("null");
     }
 
-    public static void main(String[] args) {
-        LL list = new LL();
+    static class Node {
+        int data;
+        Node next;
 
-        list.addFirst(10);
-        list.addFirst(20);
-        list.addLast(30);
-        list.addLast(40);
-
-        System.out.println("Linked list after additions:");
-        list.printList();
-
-        list.deleteFirst();
-        System.out.println("Linked list after deleting first element:");
-        list.printList();
-
-        list.deleteLast();
-        System.out.println("Linked list after deleting last element:");
-        list.printList();
+        Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
     }
 }
