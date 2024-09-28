@@ -12,14 +12,14 @@ public class Selection {
     private static int[] selection(int[] nums) {
 
         for (int i = 0; i < nums.length - 1; i++) {
-            int minPos = i;
+            int smallest = i;
             for (int j = i + 1; j < nums.length; j++) {
-                if (nums[minPos] > nums[j]) {
-                    minPos = j;
+                if (nums[smallest] > nums[j]) {
+                    smallest = j;
                 }
             }
-            int temp = nums[minPos];
-            nums[minPos] = nums[i];
+            int temp = nums[smallest];
+            nums[smallest] = nums[i];
             nums[i] = temp;
 
         }

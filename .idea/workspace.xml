@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="sortingAlgo">
-      <change afterPath="$PROJECT_DIR$/src/bst/B.java" afterDir="false" />
+    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="ll">
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/Binary1sComplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/BinaryAND.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/BinaryLeftShift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/BinaryOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/BinaryRightShift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/BinaryXOR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingalgo/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingalgo/Selection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +45,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.B">
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bst.B" />
+  <component name="RunManager" selected="Application.Selection">
+    <configuration name="Binary1sComplement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.Binary1sComplement" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bst.*" />
+          <option name="PATTERN" value="bitmanipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sortingalgo.Bubble" />
+    <configuration name="BinaryLeftShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.BinaryLeftShift" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sortingalgo.*" />
+          <option name="PATTERN" value="bitmanipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Counting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sortingalgo.Counting" />
+    <configuration name="BinaryRightShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.BinaryRightShift" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sortingalgo.*" />
+          <option name="PATTERN" value="bitmanipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sortingalgo.Insertion" />
+    <configuration name="BinaryXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.BinaryXOR" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sortingalgo.*" />
+          <option name="PATTERN" value="bitmanipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.B" />
-        <item itemvalue="Application.Counting" />
-        <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.Selection" />
-        <item itemvalue="Application.Bubble" />
+        <item itemvalue="Application.BinaryRightShift" />
+        <item itemvalue="Application.BinaryLeftShift" />
+        <item itemvalue="Application.Binary1sComplement" />
+        <item itemvalue="Application.BinaryXOR" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00040" summary="BT">
-      <created>1723199686868</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1723199686868</updated>
     </task>
     <task id="LOCAL-00041" summary="BT">
       <created>1723201148035</created>
@@ -467,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727434187864</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="ll">
+      <created>1727448810794</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1727448810795</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,23 +500,8 @@
     <MESSAGE value="Stack" />
     <MESSAGE value="bt" />
     <MESSAGE value="reformat" />
-    <MESSAGE value="ll" />
     <MESSAGE value="sortingAlgo" />
-    <option name="LAST_COMMIT_MESSAGE" value="sortingAlgo" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/bst/B.java</url>
-          <line>10</line>
-          <properties class="bst.B" method="s">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="ll" />
+    <option name="LAST_COMMIT_MESSAGE" value="ll" />
   </component>
 </project>
