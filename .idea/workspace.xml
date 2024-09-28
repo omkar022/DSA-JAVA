@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="ll">
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/Binary1sComplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/BinaryAND.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/BinaryLeftShift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/BinaryOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/BinaryRightShift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/BinaryXOR.java" afterDir="false" />
+    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="bit">
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/EvenOdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingalgo/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingalgo/Selection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Selection">
-    <configuration name="Binary1sComplement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bitmanipulation.Binary1sComplement" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bitmanipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BinaryXOR">
     <configuration name="BinaryLeftShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bitmanipulation.BinaryLeftShift" />
       <module name="DSA-JAVA" />
@@ -98,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.EvenOdd" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bitmanipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sortingalgo.Selection" />
       <module name="DSA-JAVA" />
@@ -113,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryXOR" />
+        <item itemvalue="Application.EvenOdd" />
         <item itemvalue="Application.Selection" />
         <item itemvalue="Application.BinaryRightShift" />
         <item itemvalue="Application.BinaryLeftShift" />
-        <item itemvalue="Application.Binary1sComplement" />
-        <item itemvalue="Application.BinaryXOR" />
       </list>
     </recent_temporary>
   </component>
@@ -129,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00041" summary="BT">
-      <created>1723201148035</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1723201148035</updated>
     </task>
     <task id="LOCAL-00042" summary="BT">
       <created>1723202035677</created>
@@ -473,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727448810795</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="bit">
+      <created>1727513631146</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1727513631146</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,6 +496,7 @@
     <MESSAGE value="reformat" />
     <MESSAGE value="sortingAlgo" />
     <MESSAGE value="ll" />
-    <option name="LAST_COMMIT_MESSAGE" value="ll" />
+    <MESSAGE value="bit" />
+    <option name="LAST_COMMIT_MESSAGE" value="bit" />
   </component>
 </project>
