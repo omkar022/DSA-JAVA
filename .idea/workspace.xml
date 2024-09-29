@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="bit">
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/ClearLastithBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/ClearRangeOfBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/ClearithBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/CountSetBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/NoIsPow2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/UpdateithBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/FastExponentiation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CountSetBits">
+  <component name="RunManager" selected="Application.FastExponentiation">
     <configuration name="ClearLastithBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bitmanipulation.ClearLastithBit" />
       <module name="DSA-JAVA" />
@@ -84,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FastExponentiation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.FastExponentiation" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bitmanipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NoIsPow2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bitmanipulation.NoIsPow2" />
       <module name="DSA-JAVA" />
@@ -97,26 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateithBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bitmanipulation.UpdateithBit" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bitmanipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FastExponentiation" />
         <item itemvalue="Application.CountSetBits" />
         <item itemvalue="Application.NoIsPow2" />
         <item itemvalue="Application.ClearRangeOfBits" />
         <item itemvalue="Application.ClearLastithBit" />
-        <item itemvalue="Application.UpdateithBit" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00044" summary="BT">
-      <created>1723204012663</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1723204012663</updated>
     </task>
     <task id="LOCAL-00045" summary="BT">
       <created>1723274987800</created>
@@ -472,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727578168582</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="bit">
+      <created>1727592820901</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1727592820901</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
