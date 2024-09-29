@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="bit">
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/GetithBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/SetithBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/ClearLastithBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/ClearRangeOfBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/ClearithBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/CountSetBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/NoIsPow2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmanipulation/UpdateithBit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +44,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SetithBit">
-    <configuration name="BinaryXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bitmanipulation.BinaryXOR" />
+  <component name="RunManager" selected="Application.CountSetBits">
+    <configuration name="ClearLastithBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.ClearLastithBit" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -54,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bitmanipulation.EvenOdd" />
+    <configuration name="ClearRangeOfBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.ClearRangeOfBits" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetithBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bitmanipulation.GetithBit" />
+    <configuration name="CountSetBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.CountSetBits" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -80,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sortingalgo.Selection" />
+    <configuration name="NoIsPow2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.NoIsPow2" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sortingalgo.*" />
+          <option name="PATTERN" value="bitmanipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetithBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bitmanipulation.SetithBit" />
+    <configuration name="UpdateithBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitmanipulation.UpdateithBit" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SetithBit" />
-        <item itemvalue="Application.GetithBit" />
-        <item itemvalue="Application.BinaryXOR" />
-        <item itemvalue="Application.EvenOdd" />
-        <item itemvalue="Application.Selection" />
+        <item itemvalue="Application.CountSetBits" />
+        <item itemvalue="Application.NoIsPow2" />
+        <item itemvalue="Application.ClearRangeOfBits" />
+        <item itemvalue="Application.ClearLastithBit" />
+        <item itemvalue="Application.UpdateithBit" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +128,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00043" summary="BT">
-      <created>1723202249673</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1723202249673</updated>
     </task>
     <task id="LOCAL-00044" summary="BT">
       <created>1723204012663</created>
@@ -468,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727514339646</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="bit">
+      <created>1727578168581</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1727578168582</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
