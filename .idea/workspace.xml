@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/recursion/FriendsPairing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/BinaryString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,20 @@
     &quot;last_opened_file_path&quot;: &quot;D:/DSA-JAVA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FriendsPairing">
+  <component name="RunManager" selected="Application.BinaryString">
+    <configuration name="BinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.BinaryString" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FriendsPairing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.FriendsPairing" />
       <module name="DSA-JAVA" />
@@ -92,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lastOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.lastOccurance" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryString" />
         <item itemvalue="Application.FriendsPairing" />
         <item itemvalue="Application.RemoveDuplicateChar" />
         <item itemvalue="Application.Tiling" />
         <item itemvalue="Application.XPowN" />
-        <item itemvalue="Application.lastOccurance" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Greedy">
-      <created>1723445626133</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1723445626133</updated>
     </task>
     <task id="LOCAL-00056" summary="Greedy">
       <created>1723448037627</created>
@@ -467,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727784765935</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="recursion">
+      <created>1727785975182</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1727785975182</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
