@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/recursion/Tiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/RemoveDuplicateChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +40,9 @@
     &quot;last_opened_file_path&quot;: &quot;D:/DSA-JAVA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Tiling">
-    <configuration name="CheckArraySorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.CheckArraySorted" />
+  <component name="RunManager" selected="Application.RemoveDuplicateChar">
+    <configuration name="FirstOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.FirstOccurance" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -54,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.FirstOccurance" />
+    <configuration name="RemoveDuplicateChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.RemoveDuplicateChar" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicateChar" />
         <item itemvalue="Application.Tiling" />
         <item itemvalue="Application.XPowN" />
         <item itemvalue="Application.lastOccurance" />
         <item itemvalue="Application.FirstOccurance" />
-        <item itemvalue="Application.CheckArraySorted" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00053" summary="BT">
-      <created>1723364803426</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1723364803426</updated>
     </task>
     <task id="LOCAL-00054" summary="Greedy">
       <created>1723437568246</created>
@@ -468,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727765400943</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="recursion">
+      <created>1727779559099</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1727779559099</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
