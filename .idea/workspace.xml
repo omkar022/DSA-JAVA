@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/recursion/RemoveDuplicateChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/FriendsPairing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +39,9 @@
     &quot;last_opened_file_path&quot;: &quot;D:/DSA-JAVA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RemoveDuplicateChar">
-    <configuration name="FirstOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.FirstOccurance" />
+  <component name="RunManager" selected="Application.FriendsPairing">
+    <configuration name="FriendsPairing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.FriendsPairing" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FriendsPairing" />
         <item itemvalue="Application.RemoveDuplicateChar" />
         <item itemvalue="Application.Tiling" />
         <item itemvalue="Application.XPowN" />
         <item itemvalue="Application.lastOccurance" />
-        <item itemvalue="Application.FirstOccurance" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Greedy">
-      <created>1723437568246</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1723437568246</updated>
     </task>
     <task id="LOCAL-00055" summary="Greedy">
       <created>1723445626133</created>
@@ -468,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727779559099</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="recursion">
+      <created>1727784765935</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1727784765935</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
