@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/sortingalgo/divideconquer/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortingalgo/divideconquer/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraylist/SortedAndRotatedPairSum2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,22 +40,9 @@
     &quot;last_opened_file_path&quot;: &quot;D:/DSA-JAVA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.SortedAndRotatedPairSum2">
     <configuration name="BinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.BinaryString" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FriendsPairing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.FriendsPairing" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -81,6 +67,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.P" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sortingalgo.divideconquer.QuickSort" />
       <module name="DSA-JAVA" />
@@ -94,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.RemoveDuplicateChar" />
+    <configuration name="SortedAndRotatedPairSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.SortedAndRotatedPairSum2" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedAndRotatedPairSum2" />
+        <item itemvalue="Application.P" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.BinaryString" />
-        <item itemvalue="Application.FriendsPairing" />
-        <item itemvalue="Application.RemoveDuplicateChar" />
       </list>
     </recent_temporary>
   </component>
@@ -125,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Greedy">
-      <created>1723472973948</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1723472973948</updated>
     </task>
     <task id="LOCAL-00058" summary="Queue">
       <created>1723708675315</created>
@@ -469,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727789135380</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="recursion">
+      <created>1727864605025</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1727864605026</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
