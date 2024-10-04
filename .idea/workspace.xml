@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="al">
-      <change afterPath="$PROJECT_DIR$/src/array/binarySearch.java" afterDir="false" />
+    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +39,13 @@
     &quot;last_opened_file_path&quot;: &quot;D:/DSA-JAVA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.binarySearch">
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sortingalgo.divideconquer.MergeSort" />
+  <component name="RunManager" selected="Application.PairsInArray">
+    <configuration name="P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.P" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sortingalgo.divideconquer.*" />
+          <option name="PATTERN" value="arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraylist.P" />
+    <configuration name="PairsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.PairsInArray" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arraylist.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairsInArray" />
         <item itemvalue="Application.binarySearch" />
         <item itemvalue="Application.SortedAndRotatedPairSum2" />
         <item itemvalue="Application.P" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Queue">
-      <created>1723714097213</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1723714097213</updated>
     </task>
     <task id="LOCAL-00060" summary="Queue">
       <created>1723724107270</created>
@@ -468,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728028787503</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="array">
+      <created>1728038661198</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1728038661198</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,6 +499,7 @@
     <MESSAGE value="bit" />
     <MESSAGE value="recursion" />
     <MESSAGE value="al" />
-    <option name="LAST_COMMIT_MESSAGE" value="al" />
+    <MESSAGE value="array" />
+    <option name="LAST_COMMIT_MESSAGE" value="array" />
   </component>
 </project>
