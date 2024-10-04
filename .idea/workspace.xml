@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/arraylist/SortedAndRotatedPairSum2.java" afterDir="false" />
+    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="al">
+      <change afterPath="$PROJECT_DIR$/src/array/binarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,20 +40,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/DSA-JAVA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SortedAndRotatedPairSum2">
-    <configuration name="BinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.BinaryString" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.binarySearch">
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sortingalgo.divideconquer.MergeSort" />
       <module name="DSA-JAVA" />
@@ -106,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="binarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.binarySearch" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.binarySearch" />
         <item itemvalue="Application.SortedAndRotatedPairSum2" />
         <item itemvalue="Application.P" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.BinaryString" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Queue">
-      <created>1723708675315</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1723708675315</updated>
     </task>
     <task id="LOCAL-00059" summary="Queue">
       <created>1723714097213</created>
@@ -468,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727864605026</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="al">
+      <created>1728028787502</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1728028787503</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,6 +499,7 @@
     <MESSAGE value="ll" />
     <MESSAGE value="bit" />
     <MESSAGE value="recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion" />
+    <MESSAGE value="al" />
+    <option name="LAST_COMMIT_MESSAGE" value="al" />
   </component>
 </project>
