@@ -1,6 +1,6 @@
 package strings;
 
-class Solution {
+class CompressedStringII {
     public static String compressedString(String word) {
         int n = word.length();
         StringBuilder sb = new StringBuilder();
