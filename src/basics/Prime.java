@@ -8,6 +8,15 @@ public class Prime {
         System.out.print("Enter Number : ");
         int n = sc.nextInt();
         System.out.println(isPrime(n));
+        primeInRange(n);
+    }
+
+    private static void primeInRange(int n) {
+        for (int i = 2; i <= n; i++) {
+            if (isPrime(i)) {
+                System.out.println(i);
+            }
+        }
     }
 
     private static boolean isPrime(int n) {
@@ -21,4 +30,5 @@ public class Prime {
         }
         return true;
     }
+
 }
