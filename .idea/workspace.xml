@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="loops">
-      <change afterPath="$PROJECT_DIR$/src/oops/AccessSpecifiersDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/DefaultExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/PrivateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ProtectedExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/PublicExample.java" afterDir="false" />
+    <list default="true" id="cc30e527-bb7e-4d06-93d6-a6e56e596eb0" name="Changes" comment="oops">
+      <change afterPath="$PROJECT_DIR$/src/graph/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/FlattenArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/FlattenArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/FlattenArray3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/LCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/MaxHammingDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/MergeArrayLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/PalindromeSubStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/RotatedPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/SequenceOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/StringIsAPalindromeOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/SubArraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/BellmanFordAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/BellmanFordAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/DijkstraAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/DijkstraAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/MinimumSpanningTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/MinimumSpanningTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trie/WordBreakProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trie/WordBreakProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,26 +52,42 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2hzxMCTgyKwatLduXiMgU8g0pn4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/DSA-JAVA&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CompressedStringII.executor": "Run",
+    "Application.LCS.executor": "Run",
+    "Application.LevelOrder.executor": "Run",
+    "Application.PalindromeSubStrings.executor": "Run",
+    "Application.Permutation.executor": "Run",
+    "Application.ValidAnagram.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/DSA-JAVA"
   }
-}</component>
-  <component name="RunManager" selected="Application.AccessSpecifiersDemo">
-    <configuration name="AccessSpecifiersDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.AccessSpecifiersDemo" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DSA-JAVA\src\ll" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LevelOrder">
+    <configuration name="LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.LCS" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.*" />
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompressedStringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.CompressedStringII" />
+    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bt.LevelOrder" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="bt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.P" />
+    <configuration name="PalindromeSubStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.PalindromeSubStrings" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Prime" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.Permutation" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrapRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.TrapRainWater" />
+    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.ValidAnagram" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccessSpecifiersDemo" />
-        <item itemvalue="Application.Prime" />
-        <item itemvalue="Application.CompressedStringII" />
-        <item itemvalue="Application.P" />
-        <item itemvalue="Application.TrapRainWater" />
+        <item itemvalue="Application.LevelOrder" />
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.ValidAnagram" />
+        <item itemvalue="Application.PalindromeSubStrings" />
+        <item itemvalue="Application.LCS" />
       </list>
     </recent_temporary>
   </component>
@@ -136,13 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718610666742</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Stack">
-      <created>1723979120531</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1723979120531</updated>
     </task>
     <task id="LOCAL-00067" summary="Stack">
       <created>1723982506567</created>
@@ -480,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728535354880</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="oops">
+      <created>1728618899166</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1728618899166</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,6 +545,7 @@
     <MESSAGE value="array" />
     <MESSAGE value="string" />
     <MESSAGE value="loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="loops" />
+    <MESSAGE value="oops" />
+    <option name="LAST_COMMIT_MESSAGE" value="oops" />
   </component>
 </project>

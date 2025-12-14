@@ -1,6 +1,7 @@
 package graph;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 //Shortest Path -fails -ve value -O(E+ElogV)
@@ -75,6 +76,40 @@ public class DijkstraAlgo {
 
 
     }
+
+//    private static  void dijkstra(ArrayList<Edge>[] graph, int src) {
+//        boolean vis[]=new boolean[V];
+//        PriorityQueue<Pair>pq=new PriorityQueue<>();
+//        pq.add(new Pair(0,0));
+//        int dist[]=new int[V];
+//        for (int i = 0; i < V; i++) {
+//            if (src!=i){
+//                dist[i]=Integer.MAX_VALUE;
+//            }
+//        }
+//
+//        while (!pq.isEmpty()){
+//            Pair curr=pq.remove();
+//            if (!vis[curr.node]){
+//                vis[curr.node]=true;
+//                for (int i = 0; i < graph[curr.node].size(); i++) {
+//                    Edge e=graph[curr.node].get(i);
+//                    int u=e.src;
+//                    int v=e.dest;
+//                    int wt=e.wt;
+//                    if (dist[u]+wt<dist[v]){
+//                        dist[v]=dist[u]+wt;
+//                        pq.add(new Pair(v,dist[v]));
+//                    }
+//                }
+//            }
+//        }
+//        for (int i = 0; i < V; i++) {
+//            System.out.print(dist[i] + " ");
+//        }
+//        System.out.println();
+//
+//    }
 
     static class Pair implements Comparable<Pair> {
         int node;

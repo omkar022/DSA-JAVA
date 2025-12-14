@@ -39,16 +39,28 @@ public class BellmanFordAlgo {
                 dist[i] = Integer.MAX_VALUE;
             }
         }
-
-        for (int k = 0; k < V - 1; k++) {//O(V)
-
-            for (int i = 0; i < V; i++) {  //O(E)
+//
+//        for (int k = 0; k < V - 1; k++) {//O(V)
+//
+//            for (int i = 0; i < V; i++) {  //O(E)
+//                for (int j = 0; j < graph[i].size(); j++) {
+//                    Edge e = graph[i].get(j);
+//                    int u = e.src;
+//                    int v = e.dest;
+//                    if (dist[u] != Integer.MAX_VALUE && dist[u] + e.wt < dist[v]) {
+//                        dist[v] = dist[u] + e.wt;
+//                    }
+//                }
+//            }
+//        }
+        for (int k = 0; k < V-1; k++) {
+            for (int i = 0; i < V; i++) {
                 for (int j = 0; j < graph[i].size(); j++) {
-                    Edge e = graph[i].get(j);
-                    int u = e.src;
-                    int v = e.dest;
-                    if (dist[u] != Integer.MAX_VALUE && dist[u] + e.wt < dist[v]) {
-                        dist[v] = dist[u] + e.wt;
+                    Edge e=graph[i].get(j);
+                    int u=e.src;
+                    int v=e.dest;
+                    if (dist[u]!=Integer.MAX_VALUE && dist[u]+ e.wt<dist[v]){
+                        dist[v]=e.wt+dist[u];
                     }
                 }
             }
